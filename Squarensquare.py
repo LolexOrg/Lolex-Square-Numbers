@@ -2,7 +2,7 @@ import sys,os,subprocess,io,time
 sys.path.insert(0, "./")
 if not os.path.isfile("./squarenumber.py"):
     with open ("./squarenumber.py","a") as f: f.write("squarenumbers = 2\noriginsquare = 2")
-    subprocess.call("./SquarensquareWINDOWS.py", shell = True)
+    subprocess.call("./Squarensquare.py", shell = True)
 import squarenumber
 squarenumbers = squarenumber.squarenumbers
 originsquare = squarenumber.originsquare
